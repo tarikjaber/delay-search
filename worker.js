@@ -7,7 +7,7 @@ async function redirect(originalUrl, tabId) {
     setTimeout(async function () {
         redirectingBack = true;
         await chrome.tabs.update(tabId, { url: originalUrl })
-    }, 3000); // 15 seconds delay
+    }, 15000); // 15 seconds delay
 }
 
 chrome.tabs.onUpdated.addListener(function

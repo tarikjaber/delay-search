@@ -3,7 +3,7 @@
   "description": "Extension to delay searches in google, youtube, etc.",
   "version": "1.0.0",
   "manifest_version": 3,
-  "options_page": "options.html",
+  "options_page": "options/options.html",
   "icons": {
     "16": "favicon.png",
     "32": "favicon.png",
@@ -18,8 +18,7 @@
     "type": "module"
   },
   "action": {
-    "default_title": "Svelte Extension",
-    "default_icon": "favicon.png",
-    "default_popup": "index.html"
+    "default_title": "Delay Search",
+    "default_icon": "favicon.png"
   }
 }
