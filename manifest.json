@@ -11,7 +11,8 @@
     "128": "favicon.png"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage"
   ],
   "background": {
     "service_worker": "worker.js",

@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -13,7 +14,7 @@ button {
   border: none;
   border-radius: 50px;
   color: white;
-  width: 200px;
+  width: 250px;
   height: 100px;
   font-size: 25px;
   background-color: #C23373;
@@ -21,5 +22,11 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: #b8306d;
+  background-color: #af2e67;
+}
+
+h2 {
+  font-size: 70px;
+  margin: 0 0 20px;
+  color: white;
 }

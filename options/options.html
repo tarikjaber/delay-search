@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/style.css">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <title>Extension Options</title>
+  <link rel="stylesheet" href="options.css">
 </head>
+
 <body>
-  <h1>Delay Search Settings</h1>
+  <form id="optionsForm">
+    <h1>Extension Options</h1>
+    <div class="item">
+      <label for="delayTime">Delay Time:</label>
+      <select id="delayTime" name="delayTime">
+        <option value="1">1 second</option>
+        <option value="3">3 seconds</option>
+        <option value="5">5 seconds</option>
+        <option value="10">10 seconds</option>
+        <option value="15">15 seconds</option>
+        <option value="30">30 seconds</option>
+        <option value="60">60 seconds</option>
+      </select>
+    </div>
+    <div class="item">
+      <label for="disableDuration">Disable Duration (minutes):</label>
+      <select id="disableDuration" name="disableDuration">
+        <option value="1">1 minute</option>
+        <option value="3">3 minutes</option>
+        <option value="5">5 minutes</option>
+        <option value="10">10 minutes</option>
+        <option value="15">15 minutes</option>
+        <option value="30">30 minutes</option>
+        <option value="45">45 minutes</option>
+        <option value="60">60 minutes</option>
+        <option value="120">120 minutes</option>
+      </select>
+    </div>
+    <br>
+    <br>
+    <input type="submit" value="Save">
+  </form>
   <script src="options.js"></script>
 </body>
+
 </html>
