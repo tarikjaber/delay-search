@@ -1,0 +1,25 @@
+{
+  "name": "Delayed Search",
+  "description": "Extension to delay searches in google, youtube, etc.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "options_page": "options.html",
+  "icons": {
+    "16": "favicon.png",
+    "32": "favicon.png",
+    "48": "favicon.png",
+    "128": "favicon.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Svelte Extension",
+    "default_icon": "favicon.png",
+    "default_popup": "index.html"
+  }
+}
